@@ -3,7 +3,7 @@
   "url": "https://vonng.com/capslock.json",
   "version": "3.0.3",
   "maintainers": [
-    "Vonng"
+    "dkmin"
   ],
   "author": "Vonng(rh@vonng.com)",
   "website": "http://capslock.vonng.com",
@@ -237,9 +237,10 @@
           },
           "to": [
             {
-              "mouse_key": {
-                "x": -1600
-              }
+              "key_code": "left_arrow",
+              "modifiers": [
+                "left_option"
+              ]
             }
           ]
         },
@@ -899,9 +900,10 @@
           },
           "to": [
             {
-              "mouse_key": {
-                "x": 1600
-              }
+              "key_code": "right_arrow",
+              "modifiers": [
+                "left_option"
+              ]
             }
           ]
         },
@@ -4943,7 +4945,7 @@
           ]
         },
         {
-          "description": "t = vscode",
+          "description": "t = iTerm2",
           "type": "basic",
           "from": {
             "key_code": "t",
